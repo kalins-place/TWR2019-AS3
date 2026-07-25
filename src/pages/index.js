@@ -16,13 +16,8 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+        <p><strong>This is an example installation of Docusaurus for Assignment 3. It has been edited locally and deployed on Github.</strong></p>
+        <p>Donec sollicitudin tortor in eros vulputate, quis laoreet nibh ornare. Aenean turpis libero, pretium in mattis quis, finibus quis dolor. Nulla facilisi. Suspendisse potenti. Nam gravida rhoncus augue et suscipit. Cras dignissim tempus lectus. Etiam egestas pellentesque magna, a ornare nulla luctus elementum. Curabitur efficitur aliquam magna vel suscipit. Vestibulum viverra ligula vitae ipsum tincidunt egestas. Sed neque nulla, varius eu lectus et, finibus elementum mi.</p>
       </div>
     </header>
   );
