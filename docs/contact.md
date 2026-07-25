@@ -2,7 +2,7 @@
 
 This assignment is written by K.
 
- * [GitHub](https://github.com/kalins-place)
+ * [GitHub Profile](https://github.com/kalins-place) - Development was posted using this account.
 
     > NOTE: This notice is testing Markdown functionality
 
