@@ -28,3 +28,18 @@
   --ifm-color-primary-lightest: #8CB2E0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+#__docusaurus .navbar__inner {
+  max-width: 600px;
+  margin: auto;
+}
+
+.footer__copyright {
+  margin-top: 5em;
+  font-size: 0.75em;
+}
+
+.col--4:nth-child(2) {
+  border-left: 5px dashed #333;
+  border-right: 5px dashed #333;
+}
