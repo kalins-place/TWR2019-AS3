@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Assignment 3',
   tagline: 'TWR2019',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/kp.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -85,17 +85,18 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'AS3 Index',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Assignment 3 Index Page',
+          src: 'img/kp.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Assignment Pages',
+            to: '/docs/about'
           },
 //          {to: '/blog', label: 'Blog', position: 'left'},
 //          {
@@ -109,46 +110,46 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Custom Pages',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'About',
+                to: 'docs/about',
+              },
+              {
+                label: 'Contact',
+                to: 'docs/contact',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Author',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Kalin',
+                href: 'https://github.com/kalins-place',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Technologies and Tools',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'NodeJS',
+                href: 'https://nodejs.org',
+              },
+              {
+                label: 'Sublime Text',
+                href: 'https://www.sublimetext.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kalin's Place. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
