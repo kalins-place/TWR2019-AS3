@@ -2,7 +2,7 @@
 
 This page will add the interactive code editor plugin
 
-https://docusaurus.io/docs/markdown-features/code-blocks#interactive-code-editor
+https://docusaurus.io/docs/api/themes/@docusaurus/theme-live-codeblock
 
 ---
 
