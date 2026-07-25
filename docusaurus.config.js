@@ -95,11 +95,16 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Assignment Pages',
+            label: 'About Page',
             to: '/docs/about'
+          },
+          {
+            label: 'Contact Page',
+            to: '/docs/contact'
+          },
+          {
+            label: 'Plugin Page',
+            to: '/docs/plugin'
           },
 //          {to: '/blog', label: 'Blog', position: 'left'},
 //          {
