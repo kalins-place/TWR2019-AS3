@@ -14,6 +14,9 @@ const config = {
   tagline: 'TWR2019',
   favicon: 'img/kp.png',
 
+// custom plugin
+  themes: ['@docusaurus/theme-live-codeblock'],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -119,6 +122,10 @@ const config = {
               {
                 label: 'Contact',
                 to: 'docs/contact',
+              },
+              {
+                label: 'Custom Plugin',
+                to: 'docs/plugin',
               },
             ],
           },
