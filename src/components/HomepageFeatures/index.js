@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Customized',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The default template has been edited to complete the assignment tasks.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Opinionated',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I prefer to use Sublime-Text and attempted to install Node and Git in a portable way.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Workarounds',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Node was manually added to the OS PATH. No installers were used.
       </>
     ),
   },
