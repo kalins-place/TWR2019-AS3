@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkassignment3=self.webpackChunkassignment3||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/TWR2019-AS3/blog","blogTitle":"Blog","authorsListPath":"/TWR2019-AS3/blog/authors"}')}}]);
