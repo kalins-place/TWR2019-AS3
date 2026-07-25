@@ -20,10 +20,10 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://kalins-place.github.io/TWR2019-AS3/',
+  url: 'https://kalins-place.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/TWR2019-AS3/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
